@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 150px;
+    background-color: lime;
+}
+
+.preset-box{
+    box-sizing: content-box;
+    margin: 10px;
+    padding: 5px;
+    line-height: 50px;
+    height: 450px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.preset-box iframe{
+    all: unset;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
