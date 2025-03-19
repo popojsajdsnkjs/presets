@@ -79,5 +79,5 @@ function copyToClipboard(text) {
   }
 
 document.getElementById('loading-bar-animation-button').onclick = copyLoadingBarAnimation(){
-    copyToClipboard(coed[loading-bar-animation])
+    copyToClipboard(coed[loading-bar-animation]);
 }
