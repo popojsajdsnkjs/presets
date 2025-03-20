@@ -78,6 +78,4 @@ function copyToClipboard(text) {
     });
   }
 
-document.getElementById('loading-bar-animation-button').onclick = copyLoadingBarAnimation(){
-    copyToClipboard(coed[loading-bar-animation]);
-}
+document.getElementById('loading-bar-animation-button').onclick = copyToClipboard(code["loading-bar-animation"])
