@@ -28,6 +28,7 @@
 
             --link-border: 15px;
             --link-font-size-mod: 5px; /*wartość bęzie odjęta od wielkości czcionki*/ 
+            --font-adjuster: 100vw * 0.001; /*odejmuje wartość*/
         }
 
         header{
@@ -56,7 +57,7 @@
             height: calc(var(--banner-height) / 2);
             line-height: calc(var(--banner-height) / 2);
             text-align: center;
-            font-size: calc(var(--banner-height) / 2 * 0.4 - var(--link-font-size-mod));
+            font-size: calc(var(--banner-height) / 2 * 0.4 - var(--link-font-size-mod) - var(--font-adjuster));
             background-color: var(--menu-background);
         }
 
@@ -79,7 +80,6 @@
             <p>
                 <a href="banner.html" class="menu-link">test1</a>
                 <a href="banner.html" class="menu-link">test2</a>
-                <a href="banner.html" class="menu-link">test3</a>
             </p>
         </div>
     </header>
